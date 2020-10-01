@@ -1,4 +1,4 @@
-# A Novel Challenge Set for Hebrew Morphological Disambiguation and Diacritics Restoration 
+ï»¿# A Novel Challenge Set for Hebrew Morphological Disambiguation and Diacritics Restoration 
 
 There are 21 Hebrew homographs covered in this dataset, with two possible analyses per homograph. There are approximately 500-2K sentences for each of the two possible analyses for each homograph.
 
@@ -6,14 +6,14 @@ This dataset is provided for research purposes (see License section below).
 
 ## Files
 Currently the dataset contains sample sentences for 21 homographs. Each homograph is in its own directory, with two files inside the directory - one for each possible analysis. The name of the directory/file represents the homograph/diacritized form. 
-For example, for the homograph `òîğå`:
+For example, for the homograph `×¢×× ×•`:
 ```
 ----------------------------------------------
 .
 ..
-òîğå
-    òÄîÈÌğåÌ.txt
-    òÇîÅÌğåÌ.txt
+×¢×× ×•
+    ×¢Ö´×Ö¸Ö¼× ×•Ö¼.txt
+    ×¢Ö·×ÖµÖ¼× ×•Ö¼.txt
 ...
 ----------------------------------------------
 ```
@@ -24,7 +24,7 @@ Each example is a full sentence on it's own line, with the relevant homograph ma
 
 For example:
 
-    éãòğå ùååéúåø òì äîğäâ äæä éáéà àú ä÷õ òì ‡òÇîÅÌğåÌ‡ åòì äéäãåú ëåìä.
+    ×™×“×¢× ×• ×©×•×•×™×ª×•×¨ ×¢×œ ×”×× ×”×’ ×”×–×” ×™×‘×™× ××ª ×”×§×¥ ×¢×œ â€¡×¢Ö·×ÖµÖ¼× ×•Ö¼â€¡ ×•×¢×œ ×”×™×”×“×•×ª ×›×•×œ×”.
 
 
 ## License
